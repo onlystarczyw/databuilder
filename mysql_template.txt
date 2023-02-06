@@ -1,0 +1,16 @@
+##建表语句##
+CREATE TABLE `tb_student` (
+  `id` varchar(64) NOT NULL COMMENT '主键',
+  `name` varchar(64) NOT NULL COMMENT '姓名',
+  `age` int(11) DEFAULT NULL COMMENT '年龄',
+  `create_by` varchar(255) DEFAULT NULL COMMENT '创建人',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='系统路由日志';
+##数据量##
+10
+##基础数据##
+`id`
+`name` 刘德华 张学友 郭富城 黎明
+`age` 18 19 20 21 22 23 24 25 26 27 28 29 30
+`create_time` 2020-12-15 23:59:59~2022-12-15 23:59:59
