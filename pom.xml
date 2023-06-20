@@ -73,7 +73,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!-- 可以增加main函数入口，可有可无-->
-                            <mainClass>com.onlystarczy.databuild.DataFaker3</mainClass>
+                            <mainClass>com.onlystarczy.databuild.DataFaker4Mysql</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
