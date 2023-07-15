@@ -25,7 +25,7 @@ CREATE TABLE `tb_student` (
 
 # 打包&生成sql
 ```
-mvn clean package
+mvn clean install
 ```
 - 在target目录执行java -jar mysql-datafaker.jar
 - 命令行会提示输入工作路径，输入上面准备的工作路径：D:\sql\
